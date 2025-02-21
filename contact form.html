@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Mission Statements</title>
+    <link rel="stylesheet" href="style.css">
+	<header>
+   	<img src="Final Logo1.png" alt="coat" width = 700 height = 300 /></a>
+	</header>
+    <style>
+
+
+        .contact-form {
+            margin: 20px auto; /* Center the form horizontally */
+            padding: 20px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            max-width: 600px; /* Set a maximum width for the form */
+        }
+
+        .contact-form label {
+            display: block;
+            margin-bottom: 5px;
+        }
+
+        .contact-form input,
+        .contact-form textarea {
+            width: calc(100% - 12px);
+            padding: 8px;
+            margin-bottom: 10px;
+            border: 1px solid #ccc;
+            border-radius: 3px;
+            box-sizing: border-box; /* Include padding and border in width */
+        }
+
+        .contact-form button {
+            background-color: #007bff;
+            color: white;
+            padding: 10px 15px;
+            border: none;
+            border-radius: 3px;
+            cursor: pointer;
+        }
+
+ .watermark {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      z-index: -1;
+      opacity: 0.09; /* Adjust opacity as needed */
+    }
+
+    .watermark img {
+      width: 100%;  /* Adjust image size if needed */
+    }
+    .content {
+      padding: 20px;
+    }
+  </style>
+</head>
+
+<body>
+    <div class="watermark">
+        <img src="substation.jpg" alt="coat" width="1050" height="850">
+    </div>
+
+
+    <div class="blue-bar">
+        <h1>Electrum PortLinks Engineering Botswana</h1>
+        <a href="Home Page.html"><button id="Home Page">Home Page</button></a>
+        <div class="dropdown">
+            <button>Company Overview</button>
+            <div class="dropdown-content">
+                <a href="About Us.html"><button id="About Us">About Us</button></a>
+                <a href="Director's Statement.html"><button id="Director's Statement">Director's Statement</button></a>
+                <a href="company structure.html"><button id="Company Structure">Company Structure</button></a>
+                <a href="Vision and Mission Statements.html"><button id="Vision and Mission Statements">Vision and Mission Statements</button></a>
+            </div>
+        </div>
+        <div class="dropdown">
+            <button>Services Offered</button>
+            <div class="dropdown-content">
+                <a href="Electrical Installations.html"><button id="Electrical Works">Electrical Works</button></a>
+                <a href="Instrumentations installations.html"><button id="Instrumentation Works">Instrumentation Works</button></a>
+                <a href="Mechanical installations.html"><button id="Mechanical Works">Mechanical Works</button></a>
+                <a href="Electrical Installations.html"><button id="Telecommunications Works">Telecommunications Works</button></a>
+            </div>
+        </div>
+        <div class="dropdown">
+            <button>Equipment Catalogue</button>
+            <div class="dropdown-content">
+                <a href="Automotive Tech1.html"><button id="Automobile Device Equipment">Automobile Device Equipment</button></a>
+                <a href="Surveillence Monitoring Technology.html"><button id="Surveillence Systems">Surveillence Systems</button></a>
+                <a href="Acces Control Technology.html"><button id="Access Control Systems">Access Control Systems</button></a>
+                <a href="Telecom Networking Catalogue.html"><button id="Telecommunication and Networking Devices">Telecommunication and Networking Devices</button></a>
+            </div>
+        </div>
+        <a href="Jobs Performed.html"><button id="Job Performed">Job Performed</button></a>
+        <a href="Contact Form.html"><button id="Contact Form">Contact Form</button></a>
+    </div>
+
+    <h2 style="text-align: center">Please feel free to browse our site and engage let us know how we can help you.</h2>
+
+    <p style="font-weight: bold; margin-left: 12px; text-size: 24px">We provide a range of engineering and electronic services and equipment with technical capabilities that offers a variety of features from standard Electrical, instrumentation work to GPS Tracking system, surveillance systems(solar, IP and analog) and Fire Suppression systems at affordable and costs. Our services is backed by trained and qualified technicians and tradesman with the ability to plan, design and successfully deploy our services in any application. E.P Links is available to help you improve service delivery and optimise production operations.</p>
+
+    <div class="contact-form">
+        <h2>Contact Us</h2>
+        <form action="submit_form.php" method="post">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+
+
+    <footer>
+        <p>Copyright © 2024 IEC Botswana. All Rights Reserved.
+            Designed by B.Mutema<br><br>Contacts<br><br>Business: (+267 71 724 145)<br>Alternative Number: (+267 72 936 046)</p>
+    </footer>
+    <a href="home page.html" style="position: absolute; right: 40px;"><img src="picfoot.png" alt="coat" width="250" height="80"></a>
+
+</body>
+
+</html>

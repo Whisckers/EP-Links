@@ -1,0 +1,98 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 20px;
+}
+ 
+
+label {
+    display: block;
+    margin-bottom: 18px;
+}
+
+input[type="text"],
+input[type="number"],
+textarea {
+    width: 100%;
+    padding: 30px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-bottom: 15px;
+}
+
+textarea {
+    height: 150px;
+}
+
+button:hover {
+    background-color: rgb(	135, 206, 235); 
+}
+ .watermark {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      z-index: .02;
+      opacity: 0.09; /* Adjust opacity as needed */
+    }
+
+    .watermark img {
+      width: 100%;  /* Adjust image size if needed */
+    }
+    .content {
+      padding: 20px;
+    }
+
+label, select {
+  margin-right: 10px;  /* Add some space between labels and dropdowns */
+}
+
+   /* Footer styles */
+    footer {
+      background-color: rgb(63,63,63); /* Set footer background color to blue */
+      color: white; /* Set footer text color to white */
+	  padding: 4px; /* Add padding for content within the footer */
+	  text-align: Center;
+	  padding-left: 44px;
+	  margin-top: 30px;
+	  margin-bottom: 30px;
+	   /* margin-right: 40px;*/
+	  /* margin-left: 1px;*/
+	   
+	 width: 97%; /* Extend footer to the right margin 
+    }
+    /* Table styles */
+    table {
+      width: 80.6%; /* Make table span the full width */
+	  opacity :0.9;
+      table-layout: flexible; /* Fix column widths for even distribution */
+      margin-bottom: 40px; /* Add some space between table and footer */
+	  border: solid black 2px;
+	  border-color: rgb(9, 137, 195);
+	  color: rgb(9, 137, 195);
+	  padding-left: 5px;
+	   padding-right: 5px;
+	  margin-left: 14px;
+    }
+	td, th {
+  background-color: skyblue; /* Set text color inside table cells and headers to blue */
+}
+    .table-image {
+      width: 33.33%; /* Set image width to occupy one-third of the table */
+      padding: 20px; /* Add padding around images */
+    }
+
+    .table-image img {
+      width: 175px; /* Set specific image width */
+      height: 90px; /* Set specific image height */
+	  padding: 3px; /* Add padding around images */
+    }
+	
+    /* Existing styles for your layout and content */
+    .container {
+      display: flex;
+      align-items: center;
+    }
+	
